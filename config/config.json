@@ -1,0 +1,31 @@
+{
+    "camera": {
+        "device_id": 0,
+        "width": 640,
+        "height": 480,
+        "fps": 30
+    },
+    "detection": {
+        "ear_threshold": 0.25,
+        "mar_threshold": 0.6,
+        "eye_closed_frames": 3,
+        "yawning_frames": 5,
+        "drinking_frames": 3,
+        "phone_calling_frames": 5
+    },
+    "alert": {
+        "enable_sound": true,
+        "sound_volume": 80,
+        "display_warning": true,
+        "log_events": true
+    },
+    "model": {
+        "face_landmark_model": "shape_predictor_68_face_landmarks.dat"
+    },
+    "output": {
+        "save_events": true,
+        "events_dir": "events",
+        "save_images": true,
+        "images_dir": "images"
+    }
+}
